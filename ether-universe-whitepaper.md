@@ -4,8 +4,34 @@ February 27, 2018
 
 **Abstract:** Ether Universe is designed to provide a capable and robust cross-chain solution based on EOS. This is done with logic subchains of different blockchains and sidechains based on EOS. The structure will enable account authentication and the exchange of value among various blockchains, and will eventually provide end users with a light client. Ether Universe itself is a cross-chain platform, providing status channels and service APIs so that anyone can develop their applications on Ether Universe. Ether Universe is dedicated to promote blockchain technology its business applications.
 
-[TOC]
-
+- [ETU Technical White Paper](#etu-technical-white-paper)
+    - [Background](#background)
+    - [Inter Blockchain Communication](#inter-blockchain-communication)
+        - [Communicate With Other Blockchain](#communicate-with-other-blockchain)
+            - [Participants](#participants)
+            - [Reward/Punishment Mechanism](#rewardpunishment-mechanism)
+        - [Communicate With EOS](#communicate-with-eos)
+    - [ETUChain](#etuchain)
+        - [ETUChain Core](#etuchain-core)
+            - [Share Computing Resources](#share-computing-resources)
+            - [Communication confirmed](#communication-confirmed)
+            - [Delayed](#delayed)
+        - [ETUChain Interaction](#etuchain-interaction)
+            - [Complete Functionalities](#complete-functionalities)
+            - [Extensibility](#extensibility)
+        - [ETUChain Services](#etuchain-services)
+            - [Application](#application)
+    - [Logic Subchain](#logic-subchain)
+        - [Logic Subchain Core](#logic-subchain-core)
+        - [Miner verification](#miner-verification)
+        - [Logic Subchain Interface](#logic-subchain-interface)
+    - [Accounts](#accounts)
+        - [Account Link](#account-link)
+        - [Account Management](#account-management)
+    - [Light Client](#light-client)
+        - [Based on LCV client](#based-on-lcv-client)
+        - [Proof of Completion](#proof-of-completion)
+    - [Conclusion](#conclusion)
 ## Background
 
 Since Bitcoin was introduced in 2008, blockchain technology has received great development. Entrepreneurs and developers have engaged in researching and promoting the technology, in order to offer even broader applications. Later, as Ethereum came into existence, smart contracts have greatly leveraged the applicability of blockchain technology. Recently, EOS with DPOS is able to provide millions of users with low-latency transactions. In future, thousands of blockchains will emerge in various industries. Should a user want to access features provided by a blockchain, the user would have to purchase tokens of the blockchain; this would greatly limit the use of blockchain technology.
